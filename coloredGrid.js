@@ -15,9 +15,6 @@ var grid = (function(){
 			isNewColor = checkCurrentColor(square, randColor);
 		}
 		square.style.background = randColor
-		if(square.style.background != randColor){
-			debugger;
-		}
 	}
 
 	function checkCurrentColor(square, color){
